@@ -5,7 +5,7 @@ import {
 import mutations from './mutations';
 import queries from './queries';
 
-export default new GraphQLSchema({
+module.exports = new GraphQLSchema({
 	query: new GraphQLObjectType({
 		name: 'Query',
 		fields: queries
