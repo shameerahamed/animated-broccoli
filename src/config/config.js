@@ -7,7 +7,7 @@ module.exports = {
         }
     },
     production: {
-        db: 'mongodb+srv://shameerahamed:CKJmcmEQ0nT9AiNx@cluster0-r98dc.mongodb.net/lms?retryWrites=true',
+        db: process.env.url,
         app: {
             name: 'graphql'
         }
